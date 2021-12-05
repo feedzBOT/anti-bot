@@ -80,10 +80,8 @@ after running it you need to scan the qr
 
 ## 120+ Feature
 ## Edit file
-- Change ownerNumber on [this section](https://github.com/nanomilk/anti-bot/blob/7a7ebe69cf44686d8a577f616b38b5d299ffefcc/config.json#L2)
-- Change botName on [this section](https://github.com/nanomilk/anti-bot/blob/7a7ebe69cf44686d8a577f616b38b5d299ffefcc/config.json#L3)
-- You can edit list and display menu or donate on [this section](https://github.com/nanomilk/anti-bot/blob/main/help/ind.js)
-- You can add fiture on [this section](https://github.com/nanomilk/anti-bot/tree/main/message)
+- Change ownerNumber on [this section](https://github.com/NanoMilk/anti-bot/blob/dff93e2bc717ada217883e906ff3ec1d992cbf9d/config.js#L6)
+- You can add fiture on [this section](https://github.com/nanomilk/anti-bot/tree/main/plugins)
 
 
 ## Installing the FFmpeg for Windows

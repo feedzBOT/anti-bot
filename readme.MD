@@ -44,13 +44,7 @@
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip) (for sticker command)
 
 # Instalasi
-## For Windows
-```bash
-> git clone https://github.com/nanomilk/anti-bot.git
-> cd anti-bot
-> npm install
-> node main
-```
+
 ## For Termux
 ```bash
 > termux-setup-storage
@@ -62,42 +56,72 @@
 > npm install
 > node . [<session name>] (session name is optional)
 ```
+# On Termux With Ubuntu
 
-###### Stop the Bot
+## INSTALLING UBUNTU 
+
+```bash
+apt update && apt full-upgrade
+apt install wget curl git proot-distro
+proot-distro install ubuntu
+echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
+ubuntu
+```
+---------
+
+## INSTALLING REQUIRED PACKAGES 
+
+```bash
+ubuntu
+apt update && apt full-upgrade
+apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
+```
+
+---------
+
+## INSTALLING NODEJS & ANTI-BOT 
+
+```bash
+ubuntu
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+apt install -y nodejs gcc g++ make
+git clone https://github.com/Nanomilk/anti-bot
+cd anti-bot
+npm install
+npm update
+```
+
+---------
+
+## FOR WINDOWS/VPS/RDP USER
+
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
+* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
+* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
+* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
+
+```bash
+git clone https://github.com/Nanomilk/anti-bot
+cd anti-bot
+npm install
+npm update
+```
+
+---------
+### Stop the Bot
 
 ```bash
 > ctrl + c
 ```
-after running it you need to scan the qr
-## For VPS
-```bash
-> apt install nodejs git ffmpeg wget imagemagick
-> git clone https://github.com/nanomilk/anti-bot.git
-> cd anti-bot
-> npm install
-> node main
-```
 
-## 120+ Feature
 ## Edit file
 - Change ownerNumber on [this section](https://github.com/NanoMilk/anti-bot/blob/dff93e2bc717ada217883e906ff3ec1d992cbf9d/config.js#L6)
 - You can add fiture on [this section](https://github.com/nanomilk/anti-bot/tree/main/plugins)
 
 
-## Installing the FFmpeg for Windows
-* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-> ffmpeg -version
-```
+after running it you need to scan the qr
+
+## 120+ Feature
 
 ## Donate
 - [Saweria](https://saweria.co/nightsleep1)

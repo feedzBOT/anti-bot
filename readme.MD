@@ -108,12 +108,20 @@ npm update
 ```
 
 ---------
+
+### Run
+
+```bash
+node .
+```
+
+---------
 ### Stop the Bot
 
 ```bash
 > ctrl + c
 ```
-
+--------
 ## Edit file
 - Change ownerNumber on [this section](https://github.com/NanoMilk/anti-bot/blob/dff93e2bc717ada217883e906ff3ec1d992cbf9d/config.js#L6)
 - You can add fiture on [this section](https://github.com/nanomilk/anti-bot/tree/main/plugins)

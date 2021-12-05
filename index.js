@@ -6,7 +6,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts = require('cfonts')
-CFonts.say('IKEH-IKEH|BOT', {
+CFonts.say('ANTI|BOT', {
 	font: 'tiny',
 	align: 'center',
 	gradient: ['red', 'magenta']

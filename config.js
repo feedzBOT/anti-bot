@@ -1,16 +1,16 @@
 let fs = require('fs')
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/DmYC7VwLxpVIPHrysJFIC7']
+global.linkGC = ['https://chat.whatsapp.com/GAVQ2IvZ8a6BwaU0avKDL6']
 global.Owner = {
 	// use the phone number with the country code, for example Indonesia '62' America '1' etc
-	'6282331033919': { // put your number here
-		name: 'R',
+	'15017778877': { // put your number here
+		name: 'My owner',
 		isDev: true, // if true this number will send if bot have bug and developer mode true
 		isReport: true, // if true this number will send if user use command /report or /join
 		isCreator: true // if true this number will send if user use command /owner or /creator
 	},
-	'0': { // put your number here
-		name: 'D',
+	'6288705834498': { // put your number here
+		name: 'Apa?',
 		isDev: false, // if true this number will send if bot have bug and developer mode true
 		isReport: true, // if true this number will send if user use command /report or /join
 		isCreator: false // if true this number will send if user use command /owner or /creator
@@ -32,7 +32,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
 	// 'https://website': 'apikey'
-	'https://api.xteam.xyz': 'faisal123',
+	'https://api.xteam.xyz': 'MIMINETBOT',
 	'https://bsbt-api-rest.herokuapp.com': 'benniismael',
 	'https://api.zeks.xyz': 'apivinz',
 	'https://hardianto-chan.herokuapp.com': 'hardianto'
@@ -42,8 +42,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-	var sticker_name = 'I hope you\'re fine'
-	var sticker_author = 'wuis'
+	var sticker_name = 'Bot'
+	var sticker_author = 'GABUT'
 } else {
 	var sticker_name = stickerpack.spackname
 	var sticker_author = stickerpack.sauthor

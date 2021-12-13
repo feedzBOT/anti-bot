@@ -17,6 +17,7 @@ CFonts.say('\'BOT\'  GHOST19-UI', {
 	gradient: ['red', 'magenta']
 })
 
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
 var isRunning = false
 /**

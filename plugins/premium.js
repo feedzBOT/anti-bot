@@ -16,11 +16,11 @@ let handler = async m => m.reply(`
 │• 40K / 3 Bulan (premium ⭕, join 3 Grup ⭕)
 │
 │ > Pembayaran :
-│• https://saweria.co/nightsleep1
-│• pulsa(Tsel)+ Up 5K : 0823-3103-3919 
-│• dana : 0823-3103-3919
+│• https://saweria.co/hifeedz
+│• pulsa(Tsel)+ Up 5K : 0812-4321-8980 
+│• dana : 0812-4321-8980
 │○Note: Harap chat dulu ke 
-│ https://wa.me/6282331033919
+│ https://wa.me/6288705834498
 │sebelum order premium.
 │
 │
